@@ -84,11 +84,19 @@ class AuthController extends Controller
      */
     public function postAuth(Request $request)
     {
-        $this->validate($request, [
+        $v = $this->getValidationFactory()->make($request->input(), [
             'protocol_provider' => 'required|regex:/[a-z0-9]+\:[a-z0-9]+/',
             'key' => 'required',
             'secret' => 'required',
         ]);
+
+        $v->sometimes('scopes', 'required', function ($input) {
+            return in_array($input->protocol_provider, ['oauth2:uber']);
+        });
+
+        if ($v->fails()) {
+            $this->throwValidationException($request, $v);
+        }
 
         list($protocol, $provider) = explode(':', $request->input('protocol_provider'));
 
