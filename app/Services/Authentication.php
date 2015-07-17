@@ -1,8 +1,6 @@
 <?php namespace App\Services;
 
 use Illuminate\Http\Request;
-use League\Flysystem\Filesystem;
-use League\Flysystem\Adapter\Local;
 
 abstract class Authentication
 {
@@ -18,48 +16,39 @@ abstract class Authentication
     abstract public function login($provider, Request $request);
 
     /**
-     * Get local file system.
+     * Get value from session by key.
      *
-     * @return League\Flysystem\Filesystem
+     * @param  string   $key
+     * @param  mixed    $value
+     *
+     * @return boolean
      */
-    protected function getFileSystem()
+    protected function addToSession($key, $value)
     {
-        $adapter = new Local(storage_path().'/app');
-        return new Filesystem($adapter);
+        $success = session([$key => $value]);
+        session()->save();
+
+        return $success;
     }
 
     /**
-     * Get closure for writing state file to file system.
+     * Get value from session by key.
      *
-     * @param  Filesystem  $filesystem
-     * @param  string      $file
+     * @param  string   $key
+     * @param  boolean  $remove Optional
      *
-     * @return callable
+     * @return mixed|null
      */
-    protected function writeStateFile(Filesystem $filesystem, $file)
+    protected function getFromSession($key, $remove = true)
     {
-        return function ($data) use ($filesystem, $file) {
-            $verb = $filesystem->has($file) ? 'update' : 'write';
-            $filesystem->$verb($file, json_encode($data));
-        };
-    }
+        if ($remove) {
+            $value = session()->pull($key);
+        } else {
+            $value = session($key);
+        }
 
-    /**
-     * Get closure for reading state file from file system.
-     *
-     * @param  Filesystem  $filesystem
-     * @param  string      $file
-     *
-     * @return callable
-     */
-    protected function readStateFile(Filesystem $filesystem, $file)
-    {
-        return function () use ($filesystem, $file) {
-            if ($filesystem->has($file)) {
-                return json_decode($filesystem->read($file), true);
-            }
+        session()->save();
 
-            return [];
-        };
+        return $value;
     }
 }

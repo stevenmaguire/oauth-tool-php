@@ -1020,12 +1020,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/hashing.git",
-                "reference": "311aa261a6180bd7681c25732abbd53e4815a8c4"
+                "reference": "298c421523d416be880bb3f75809e6b107b5c9ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/hashing/zipball/311aa261a6180bd7681c25732abbd53e4815a8c4",
-                "reference": "311aa261a6180bd7681c25732abbd53e4815a8c4",
+                "url": "https://api.github.com/repos/illuminate/hashing/zipball/298c421523d416be880bb3f75809e6b107b5c9ec",
+                "reference": "298c421523d416be880bb3f75809e6b107b5c9ec",
                 "shasum": ""
             },
             "require": {
@@ -1056,7 +1056,7 @@
             ],
             "description": "The Illuminate Hashing package.",
             "homepage": "http://laravel.com",
-            "time": "2015-06-01 15:39:11"
+            "time": "2015-07-16 20:28:10"
         },
         {
             "name": "illuminate/http",

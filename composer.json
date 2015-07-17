@@ -13,8 +13,7 @@
         "stevenmaguire/oauth2-microsoft": "1.0.x-dev",
         "stevenmaguire/oauth2-uber": "1.0.x-dev",
         "stevenmaguire/oauth2-eventbrite": "1.0.x-dev",
-        "league/oauth1-client": "^1.5",
-        "league/flysystem": "^1.1@dev"
+        "league/oauth1-client": "^1.5"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",

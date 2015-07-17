@@ -14,6 +14,20 @@ use Stevenmaguire\OAuth2\Client\Provider\Uber;
 class OAuth2 extends Authentication
 {
     /**
+     * Credentials session key.
+     *
+     * @var string
+     */
+    protected $credentialsSessionKey = 'oauth2.credentials';
+
+    /**
+     * State session key.
+     *
+     * @var string
+     */
+    protected $stateSessionKey = 'oauth2.state';
+
+    /**
      * Attempt to create OAuth2 client provider.
      *
      * @param  string  $provider
@@ -52,22 +66,17 @@ class OAuth2 extends Authentication
     {
         $provider = strtolower($provider);
         $code = $request->input('code');
-        $state = $request->input('state');
+        $state = $request->input('state') ?: $this->getFromSession($this->stateSessionKey);
         $scopes = array_map('trim', explode(',', $request->input('scopes')));
-        $filesystem = $this->getFileSystem();
-        $stateFileName = 'oauth2-states.json';
         $credentials = [
             'key' => $request->input('key'),
             'secret' => $request->input('secret')
         ];
 
-        $writeStateFile = $this->writeStateFile($filesystem, $stateFileName);
-        $readStateFile = $this->readStateFile($filesystem, $stateFileName);
+        $existingCredentials = $this->getFromSession($this->credentialsSessionKey);
 
-        $states = $readStateFile();
-
-        if ($state && isset($states[$state])) {
-            $credentials = array_merge($credentials, $states[$state]);
+        if (!empty($existingCredentials)) {
+            $credentials = array_merge($credentials, $existingCredentials);
         }
 
         $client = $this->getClientByProvider($provider, [
@@ -85,16 +94,13 @@ class OAuth2 extends Authentication
                 'scope' => $scopes
             ]);
 
-            $states[$client->getState()] = $credentials;
-            $writeStateFile($states);
+            $this->addToSession($this->credentialsSessionKey, $credentials);
+            $this->addToSession($this->stateSessionKey, $client->getState());
 
             return redirect($authUrl);
-        } elseif (empty($state) || !isset($states[$state])) {
+        } elseif (empty($state)) {
             throw new Exception('OAuth2 flow exception, invalid state');
         } else {
-            unset($states[$state]);
-            $writeStateFile($states);
-
             $token = $client->getAccessToken('authorization_code', [
                 'code' => $code
             ]);

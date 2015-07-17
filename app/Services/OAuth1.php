@@ -15,6 +15,20 @@ use League\OAuth1\Client\Server\Uservoice;
 class OAuth1 extends Authentication
 {
     /**
+     * Credentials session key.
+     *
+     * @var string
+     */
+    protected $credentialsSessionKey = 'oauth1.credentials';
+
+    /**
+     * Temporary credentials session key.
+     *
+     * @var string
+     */
+    protected $tempCredentialsSessionKey = 'oauth1.tempCredentials';
+
+    /**
      * Attempt to create OAuth1 server provider.
      *
      * @param  string  $provider
@@ -41,6 +55,36 @@ class OAuth1 extends Authentication
     }
 
     /**
+     * Get value from session by key.
+     *
+     * @param  string   $key
+     * @param  mixed    $value
+     *
+     * @return boolean
+     */
+    protected function addToSession($key, $value)
+    {
+        $value = serialize($value);
+
+        return parent::addToSession($key, $value);
+    }
+
+    /**
+     * Get value from session by key.
+     *
+     * @param  string   $key
+     * @param  boolean  $remove Optional
+     *
+     * @return mixed|null
+     */
+    protected function getFromSession($key, $remove = true)
+    {
+        $value = parent::getFromSession($key, $remove);
+
+        return unserialize($value);
+    }
+
+    /**
      * Engage in login flow.
      *
      * @param  string   $provider
@@ -61,7 +105,7 @@ class OAuth1 extends Authentication
             'scopes' => $request->input('scopes'),
         ];
 
-        $existingCredentials = session('credentials');
+        $existingCredentials = $this->getFromSession($this->credentialsSessionKey);
 
         if ($existingCredentials) {
             $credentials = array_merge($credentials, $existingCredentials);
@@ -71,8 +115,8 @@ class OAuth1 extends Authentication
             'identifier' => $credentials['key'],
             'secret' => $credentials['secret'],
             'callback_uri' => route('auth', ['protocol' => 'oauth1', 'provider' => $provider]),
+            'scope' => $credentials['scopes'],
             'name' => 'OAuth Tool',
-            'scope' => $credentials['secret'],
         ]);
 
         if (empty($server)) {
@@ -80,21 +124,23 @@ class OAuth1 extends Authentication
         }
 
         if ($oauthToken && $oauthVerifier) {
-            $temporaryCredentials = session('temporaryCredentials');
+            $temporaryCredentials = $this->getFromSession($this->tempCredentialsSessionKey);
 
-            $tokenCredentials = $server->getTokenCredentials(
-                $temporaryCredentials,
-                $oauthToken,
-                $oauthVerifier
-            );
+            $tokenCredentials = $server->getTokenCredentials($temporaryCredentials, $oauthToken, $oauthVerifier);
 
             $user = $server->getUserDetails($tokenCredentials);
-            dd($user);
+
+            $identity = new Identity;
+            $identity->resourceOwner = $user;
+            $identity->accessToken = $tokenCredentials;
+
+            return $identity;
         } else {
             $temporaryCredentials = $server->getTemporaryCredentials();
-            session(['credentials' => $credentials]);
-            session(['temporaryCredentials' => $temporaryCredentials]);
-            session()->save();
+
+            $this->addToSession($this->credentialsSessionKey, $credentials);
+            $this->addToSession($this->tempCredentialsSessionKey, $temporaryCredentials);
+
             $server->authorize($temporaryCredentials);
         }
     }
