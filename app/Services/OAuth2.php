@@ -7,6 +7,7 @@ use Illuminate\Http\RedirectResponse;
 use League\OAuth2\Client\Provider\Github;
 use League\OAuth2\Client\Provider\Instagram;
 use League\OAuth2\Client\Provider\LinkedIn;
+use Stevenmaguire\OAuth2\Client\Provider\Box;
 use Stevenmaguire\OAuth2\Client\Provider\Eventbrite;
 use Stevenmaguire\OAuth2\Client\Provider\Microsoft;
 use Stevenmaguire\OAuth2\Client\Provider\Uber;
@@ -38,6 +39,7 @@ class OAuth2 extends Authentication
     protected function getClientByProvider($provider, $credentials = [])
     {
         $providers = [
+            'box' => Box::class,
             'github' => Github::class,
             'instagram' => Instagram::class,
             'linkedin' => LinkedIn::class,

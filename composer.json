@@ -13,6 +13,7 @@
         "stevenmaguire/oauth2-microsoft": "1.0.x-dev",
         "stevenmaguire/oauth2-uber": "1.0.x-dev",
         "stevenmaguire/oauth2-eventbrite": "1.0.x-dev",
+        "stevenmaguire/oauth2-box": "1.0.x-dev",
         "league/oauth1-client": "^1.5"
     },
     "require-dev": {

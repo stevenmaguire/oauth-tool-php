@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b4c50685f53b967eff7d49e3367880f",
+    "hash": "abdcf9a4a9f54ea08a8c084bff7dcb23",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -638,12 +638,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
-                "reference": "7de733ed9c866d32a1f054143cb48d900ddc6802"
+                "reference": "1cc2a80f06791b2ef19ab406028d87aa0a8c945a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/console/zipball/7de733ed9c866d32a1f054143cb48d900ddc6802",
-                "reference": "7de733ed9c866d32a1f054143cb48d900ddc6802",
+                "url": "https://api.github.com/repos/illuminate/console/zipball/1cc2a80f06791b2ef19ab406028d87aa0a8c945a",
+                "reference": "1cc2a80f06791b2ef19ab406028d87aa0a8c945a",
                 "shasum": ""
             },
             "require": {
@@ -681,7 +681,7 @@
             ],
             "description": "The Illuminate Console package.",
             "homepage": "http://laravel.com",
-            "time": "2015-07-10 01:21:10"
+            "time": "2015-07-14 17:22:16"
         },
         {
             "name": "illuminate/container",
@@ -820,12 +820,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "6ac136818d759aa370d23c9a5963abe66d055ad5"
+                "reference": "bb28a7718d8fee684893d85f5766619dc0a91583"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/6ac136818d759aa370d23c9a5963abe66d055ad5",
-                "reference": "6ac136818d759aa370d23c9a5963abe66d055ad5",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/bb28a7718d8fee684893d85f5766619dc0a91583",
+                "reference": "bb28a7718d8fee684893d85f5766619dc0a91583",
                 "shasum": ""
             },
             "require": {
@@ -871,7 +871,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2015-07-15 20:52:14"
+            "time": "2015-07-17 19:33:47"
         },
         {
             "name": "illuminate/encryption",
@@ -1198,12 +1198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
-                "reference": "c46962d4b6e12b36ab79b6526d44fb9d1457912a"
+                "reference": "5d1a6e8dbcde85c9c8839d76d74ca7c70d44b349"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/queue/zipball/c46962d4b6e12b36ab79b6526d44fb9d1457912a",
-                "reference": "c46962d4b6e12b36ab79b6526d44fb9d1457912a",
+                "url": "https://api.github.com/repos/illuminate/queue/zipball/5d1a6e8dbcde85c9c8839d76d74ca7c70d44b349",
+                "reference": "5d1a6e8dbcde85c9c8839d76d74ca7c70d44b349",
                 "shasum": ""
             },
             "require": {
@@ -1248,7 +1248,7 @@
             ],
             "description": "The Illuminate Queue package.",
             "homepage": "http://laravel.com",
-            "time": "2015-07-11 20:41:11"
+            "time": "2015-07-17 15:21:21"
         },
         {
             "name": "illuminate/session",
@@ -1454,12 +1454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "8eb3a484164978c047231e8cab8f97714fa86ff3"
+                "reference": "3a9508630c8690d8b0329099b389352050a93dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/8eb3a484164978c047231e8cab8f97714fa86ff3",
-                "reference": "8eb3a484164978c047231e8cab8f97714fa86ff3",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/3a9508630c8690d8b0329099b389352050a93dfd",
+                "reference": "3a9508630c8690d8b0329099b389352050a93dfd",
                 "shasum": ""
             },
             "require": {
@@ -1493,7 +1493,7 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "http://laravel.com",
-            "time": "2015-07-15 10:25:15"
+            "time": "2015-07-17 15:21:21"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -1679,87 +1679,6 @@
                 "lumen"
             ],
             "time": "2015-07-12 02:19:42"
-        },
-        {
-            "name": "league/flysystem",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "9d17af1035f0c4b34a004aee30926e32d73cc279"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/9d17af1035f0c4b34a004aee30926e32d73cc279",
-                "reference": "9d17af1035f0c4b34a004aee30926e32d73cc279",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "ext-fileinfo": "*",
-                "mockery/mockery": "~0.9",
-                "phpspec/phpspec": "^2.2",
-                "phpspec/prophecy-phpunit": "~1.0",
-                "phpunit/phpunit": "~4.1"
-            },
-            "suggest": {
-                "ext-fileinfo": "Required for MimeType",
-                "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
-                "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
-                "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
-                "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
-                "league/flysystem-copy": "Allows you to use Copy.com storage",
-                "league/flysystem-dropbox": "Allows you to use Dropbox storage",
-                "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
-                "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
-                "league/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
-                "league/flysystem-webdav": "Allows you to use WebDAV storage",
-                "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\Flysystem\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Frank de Jonge",
-                    "email": "info@frenky.net"
-                }
-            ],
-            "description": "Filesystem abstraction: Many filesystems, one API.",
-            "keywords": [
-                "Cloud Files",
-                "WebDAV",
-                "abstraction",
-                "aws",
-                "cloud",
-                "copy.com",
-                "dropbox",
-                "file systems",
-                "files",
-                "filesystem",
-                "filesystems",
-                "ftp",
-                "rackspace",
-                "remote",
-                "s3",
-                "sftp",
-                "storage"
-            ],
-            "time": "2015-07-13 15:58:28"
         },
         {
             "name": "league/oauth1-client",
@@ -2356,6 +2275,61 @@
                 "psr-3"
             ],
             "time": "2015-06-02 13:48:41"
+        },
+        {
+            "name": "stevenmaguire/oauth2-box",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stevenmaguire/oauth2-box.git",
+                "reference": "3ff6a5275bcb42adf30c54d3b4ea78e7ecf623f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-box/zipball/3ff6a5275bcb42adf30c54d3b4ea78e7ecf623f2",
+                "reference": "3ff6a5275bcb42adf30c54d3b4ea78e7ecf623f2",
+                "shasum": ""
+            },
+            "require": {
+                "league/oauth2-client": "1.0.0-beta1",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stevenmaguire\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steven Maguire",
+                    "email": "stevenmaguire@gmail.com",
+                    "homepage": "https://github.com/stevenmaguire"
+                }
+            ],
+            "description": "Box OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "authorisation",
+                "authorization",
+                "box",
+                "client",
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2015-07-17 23:08:45"
         },
         {
             "name": "stevenmaguire/oauth2-eventbrite",
@@ -4225,7 +4199,7 @@
         "stevenmaguire/oauth2-microsoft": 20,
         "stevenmaguire/oauth2-uber": 20,
         "stevenmaguire/oauth2-eventbrite": 20,
-        "league/flysystem": 20
+        "stevenmaguire/oauth2-box": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
