@@ -29,7 +29,7 @@ class AuthController extends Controller
     protected function getAvailableProtocols()
     {
         return [
-            'oauth2' => ['box','eventbrite','github','instagram','linkedin','microsoft','uber'],
+            'oauth2' => ['bitbucket','box','eventbrite','github','instagram','linkedin','microsoft','uber'],
             'oauth1' => ['bitbucket','magento','trello','tumblr','twitter','uservoice'],
         ];
     }

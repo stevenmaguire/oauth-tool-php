@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "abdcf9a4a9f54ea08a8c084bff7dcb23",
+    "hash": "e0ad1cd1a98ba51f1f2633220693db81",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -820,12 +820,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "bb28a7718d8fee684893d85f5766619dc0a91583"
+                "reference": "6f6dabb86e44736d81214f7f444a38d963dc7d0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/bb28a7718d8fee684893d85f5766619dc0a91583",
-                "reference": "bb28a7718d8fee684893d85f5766619dc0a91583",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/6f6dabb86e44736d81214f7f444a38d963dc7d0e",
+                "reference": "6f6dabb86e44736d81214f7f444a38d963dc7d0e",
                 "shasum": ""
             },
             "require": {
@@ -871,7 +871,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2015-07-17 19:33:47"
+            "time": "2015-07-20 16:50:34"
         },
         {
             "name": "illuminate/encryption",
@@ -1306,12 +1306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "2db917fa627b529a5023367cca68731b1ce50f46"
+                "reference": "a07f2a74142cff35b9139b8ab52aa911c174704b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/2db917fa627b529a5023367cca68731b1ce50f46",
-                "reference": "2db917fa627b529a5023367cca68731b1ce50f46",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/a07f2a74142cff35b9139b8ab52aa911c174704b",
+                "reference": "a07f2a74142cff35b9139b8ab52aa911c174704b",
                 "shasum": ""
             },
             "require": {
@@ -1351,7 +1351,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2015-07-11 12:16:43"
+            "time": "2015-07-20 16:31:36"
         },
         {
             "name": "illuminate/translation",
@@ -1404,12 +1404,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
-                "reference": "925caec6f9b2df45e7ef30461e9d68854921d0d5"
+                "reference": "08f7c1c2d263df8dd81b03480ccd4701c46652c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/validation/zipball/925caec6f9b2df45e7ef30461e9d68854921d0d5",
-                "reference": "925caec6f9b2df45e7ef30461e9d68854921d0d5",
+                "url": "https://api.github.com/repos/illuminate/validation/zipball/08f7c1c2d263df8dd81b03480ccd4701c46652c2",
+                "reference": "08f7c1c2d263df8dd81b03480ccd4701c46652c2",
                 "shasum": ""
             },
             "require": {
@@ -1446,7 +1446,7 @@
             ],
             "description": "The Illuminate Validation package.",
             "homepage": "http://laravel.com",
-            "time": "2015-06-28 12:24:55"
+            "time": "2015-07-18 02:49:20"
         },
         {
             "name": "illuminate/view",
@@ -1601,12 +1601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/lumen-framework.git",
-                "reference": "f5d6c5e9fd43abf2d3904607c95dc2864c761945"
+                "reference": "0ec7ffaf1e61a7fb15f24656d2d63ea7e216447d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/f5d6c5e9fd43abf2d3904607c95dc2864c761945",
-                "reference": "f5d6c5e9fd43abf2d3904607c95dc2864c761945",
+                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/0ec7ffaf1e61a7fb15f24656d2d63ea7e216447d",
+                "reference": "0ec7ffaf1e61a7fb15f24656d2d63ea7e216447d",
                 "shasum": ""
             },
             "require": {
@@ -1678,7 +1678,7 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2015-07-12 02:19:42"
+            "time": "2015-07-19 18:25:14"
         },
         {
             "name": "league/oauth1-client",
@@ -1812,12 +1812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-github.git",
-                "reference": "5f48034ee21bb025b4710f9e2e587a9a094bc9ff"
+                "reference": "902076a23f6f695c0a2b1d093bb439be864aa2b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-github/zipball/5f48034ee21bb025b4710f9e2e587a9a094bc9ff",
-                "reference": "5f48034ee21bb025b4710f9e2e587a9a094bc9ff",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-github/zipball/902076a23f6f695c0a2b1d093bb439be864aa2b7",
+                "reference": "902076a23f6f695c0a2b1d093bb439be864aa2b7",
                 "shasum": ""
             },
             "require": {
@@ -1826,7 +1826,8 @@
             },
             "require-dev": {
                 "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -1859,7 +1860,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-07-16 20:17:53"
+            "time": "2015-07-21 13:47:27"
         },
         {
             "name": "league/oauth2-instagram",
@@ -1867,12 +1868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-instagram.git",
-                "reference": "59a6c7646000954fd154103ac7e6659bb4234a1f"
+                "reference": "aa4ff31e381904c02a62a2a28befd59df75c98a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-instagram/zipball/59a6c7646000954fd154103ac7e6659bb4234a1f",
-                "reference": "59a6c7646000954fd154103ac7e6659bb4234a1f",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-instagram/zipball/aa4ff31e381904c02a62a2a28befd59df75c98a7",
+                "reference": "aa4ff31e381904c02a62a2a28befd59df75c98a7",
                 "shasum": ""
             },
             "require": {
@@ -1881,7 +1882,8 @@
             },
             "require-dev": {
                 "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -1914,7 +1916,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-07-16 20:19:37"
+            "time": "2015-07-21 13:45:23"
         },
         {
             "name": "league/oauth2-linkedin",
@@ -1922,12 +1924,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-linkedin.git",
-                "reference": "198460058832416b6bd895305d83b1289a7c5028"
+                "reference": "9b875f5e545943dc9eacb1b2ddd25bcbc5031a17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-linkedin/zipball/198460058832416b6bd895305d83b1289a7c5028",
-                "reference": "198460058832416b6bd895305d83b1289a7c5028",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-linkedin/zipball/9b875f5e545943dc9eacb1b2ddd25bcbc5031a17",
+                "reference": "9b875f5e545943dc9eacb1b2ddd25bcbc5031a17",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +1938,8 @@
             },
             "require-dev": {
                 "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -1969,7 +1972,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-07-16 20:20:56"
+            "time": "2015-07-21 13:43:36"
         },
         {
             "name": "monolog/monolog",
@@ -1977,12 +1980,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "c5b08724f4b11fd90a2c36a64d4868bcee7ba6a4"
+                "reference": "e4f45be5dcfeb54c45f85b50cdbb3ef8a2bfbd81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c5b08724f4b11fd90a2c36a64d4868bcee7ba6a4",
-                "reference": "c5b08724f4b11fd90a2c36a64d4868bcee7ba6a4",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e4f45be5dcfeb54c45f85b50cdbb3ef8a2bfbd81",
+                "reference": "e4f45be5dcfeb54c45f85b50cdbb3ef8a2bfbd81",
                 "shasum": ""
             },
             "require": {
@@ -2045,7 +2048,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-07-14 09:27:59"
+            "time": "2015-07-20 18:31:46"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -2277,17 +2280,17 @@
             "time": "2015-06-02 13:48:41"
         },
         {
-            "name": "stevenmaguire/oauth2-box",
+            "name": "stevenmaguire/oauth2-bitbucket",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/stevenmaguire/oauth2-box.git",
-                "reference": "3ff6a5275bcb42adf30c54d3b4ea78e7ecf623f2"
+                "url": "https://github.com/stevenmaguire/oauth2-bitbucket.git",
+                "reference": "8bc7e2bae0af24d8db58201fcb7d28196dfd747f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-box/zipball/3ff6a5275bcb42adf30c54d3b4ea78e7ecf623f2",
-                "reference": "3ff6a5275bcb42adf30c54d3b4ea78e7ecf623f2",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-bitbucket/zipball/8bc7e2bae0af24d8db58201fcb7d28196dfd747f",
+                "reference": "8bc7e2bae0af24d8db58201fcb7d28196dfd747f",
                 "shasum": ""
             },
             "require": {
@@ -2296,7 +2299,72 @@
             },
             "require-dev": {
                 "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stevenmaguire\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Stevenmaguire\\OAuth2\\Client\\Test\\": "tests/src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steven Maguire",
+                    "email": "stevenmaguire@gmail.com",
+                    "homepage": "https://github.com/stevenmaguire"
+                }
+            ],
+            "description": "Bitbucket OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "authorisation",
+                "authorization",
+                "bitbucket",
+                "client",
+                "oauth",
+                "oauth2"
+            ],
+            "support": {
+                "source": "https://github.com/stevenmaguire/oauth2-bitbucket/tree/master",
+                "issues": "https://github.com/stevenmaguire/oauth2-bitbucket/issues"
+            },
+            "time": "2015-07-21 21:13:41"
+        },
+        {
+            "name": "stevenmaguire/oauth2-box",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stevenmaguire/oauth2-box.git",
+                "reference": "8a74d300c95bb9d272bcaf4990cbb9eba35b8ec4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-box/zipball/8a74d300c95bb9d272bcaf4990cbb9eba35b8ec4",
+                "reference": "8a74d300c95bb9d272bcaf4990cbb9eba35b8ec4",
+                "shasum": ""
+            },
+            "require": {
+                "league/oauth2-client": "1.0.0-beta1",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -2329,7 +2397,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-07-17 23:08:45"
+            "time": "2015-07-21 13:48:15"
         },
         {
             "name": "stevenmaguire/oauth2-eventbrite",
@@ -2337,12 +2405,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-eventbrite.git",
-                "reference": "9b70482334f968cd8a82865b4db4c35a7da3c840"
+                "reference": "05e8ff71f1bae030ffe55926efd633108f6c5ccb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-eventbrite/zipball/9b70482334f968cd8a82865b4db4c35a7da3c840",
-                "reference": "9b70482334f968cd8a82865b4db4c35a7da3c840",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-eventbrite/zipball/05e8ff71f1bae030ffe55926efd633108f6c5ccb",
+                "reference": "05e8ff71f1bae030ffe55926efd633108f6c5ccb",
                 "shasum": ""
             },
             "require": {
@@ -2351,7 +2419,8 @@
             },
             "require-dev": {
                 "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -2384,7 +2453,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-07-16 20:27:16"
+            "time": "2015-07-21 13:39:02"
         },
         {
             "name": "stevenmaguire/oauth2-microsoft",
@@ -2392,12 +2461,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-microsoft.git",
-                "reference": "d2f67089c2087cdd06bf6c8e7e06f4d3ce34806d"
+                "reference": "3c6b8a06c83520ae67201da72b4911c1a153a5f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-microsoft/zipball/d2f67089c2087cdd06bf6c8e7e06f4d3ce34806d",
-                "reference": "d2f67089c2087cdd06bf6c8e7e06f4d3ce34806d",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-microsoft/zipball/3c6b8a06c83520ae67201da72b4911c1a153a5f5",
+                "reference": "3c6b8a06c83520ae67201da72b4911c1a153a5f5",
                 "shasum": ""
             },
             "require": {
@@ -2406,7 +2475,8 @@
             },
             "require-dev": {
                 "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -2439,7 +2509,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-07-16 20:28:28"
+            "time": "2015-07-21 13:34:55"
         },
         {
             "name": "stevenmaguire/oauth2-uber",
@@ -2447,12 +2517,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-uber.git",
-                "reference": "1feba5bcfec3aaa4715c8c21e72b1c41d431a32c"
+                "reference": "11a997703365353282cb99cd2695302167cd273d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-uber/zipball/1feba5bcfec3aaa4715c8c21e72b1c41d431a32c",
-                "reference": "1feba5bcfec3aaa4715c8c21e72b1c41d431a32c",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-uber/zipball/11a997703365353282cb99cd2695302167cd273d",
+                "reference": "11a997703365353282cb99cd2695302167cd273d",
                 "shasum": ""
             },
             "require": {
@@ -2461,7 +2531,8 @@
             },
             "require-dev": {
                 "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -2494,7 +2565,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-07-16 20:26:05"
+            "time": "2015-07-21 13:41:04"
         },
         {
             "name": "symfony/console",
@@ -3246,12 +3317,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "b1abe41e1357ad790398d7a668b19ac733b4e1c1"
+                "reference": "5594929b5d9d31871cace6d3d7cb940a0010161c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/b1abe41e1357ad790398d7a668b19ac733b4e1c1",
-                "reference": "b1abe41e1357ad790398d7a668b19ac733b4e1c1",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/5594929b5d9d31871cace6d3d7cb940a0010161c",
+                "reference": "5594929b5d9d31871cace6d3d7cb940a0010161c",
                 "shasum": ""
             },
             "require": {
@@ -3290,7 +3361,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-07-15 08:28:00"
+            "time": "2015-07-21 12:25:36"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -3775,12 +3846,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "abd05e77d364138c0532a1b78a13c4d78311f546"
+                "reference": "dee3fd1828677b2182c076ad2caecbb5c7bdbf1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/abd05e77d364138c0532a1b78a13c4d78311f546",
-                "reference": "abd05e77d364138c0532a1b78a13c4d78311f546",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/dee3fd1828677b2182c076ad2caecbb5c7bdbf1c",
+                "reference": "dee3fd1828677b2182c076ad2caecbb5c7bdbf1c",
                 "shasum": ""
             },
             "require": {
@@ -3831,7 +3902,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2015-06-21 07:54:35"
+            "time": "2015-07-19 12:54:49"
         },
         {
             "name": "sebastian/diff",
@@ -4199,7 +4270,8 @@
         "stevenmaguire/oauth2-microsoft": 20,
         "stevenmaguire/oauth2-uber": 20,
         "stevenmaguire/oauth2-eventbrite": 20,
-        "stevenmaguire/oauth2-box": 20
+        "stevenmaguire/oauth2-box": 20,
+        "stevenmaguire/oauth2-bitbucket": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
