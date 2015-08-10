@@ -9,6 +9,7 @@ use League\OAuth2\Client\Provider\Instagram;
 use League\OAuth2\Client\Provider\LinkedIn;
 use Stevenmaguire\OAuth2\Client\Provider\Bitbucket;
 use Stevenmaguire\OAuth2\Client\Provider\Box;
+use Stevenmaguire\OAuth2\Client\Provider\Elance;
 use Stevenmaguire\OAuth2\Client\Provider\Eventbrite;
 use Stevenmaguire\OAuth2\Client\Provider\Microsoft;
 use Stevenmaguire\OAuth2\Client\Provider\Uber;
@@ -45,6 +46,7 @@ class OAuth2 extends Authentication
             'github' => Github::class,
             'instagram' => Instagram::class,
             'linkedin' => LinkedIn::class,
+            'elance' => Elance::class,
             'eventbrite' => Eventbrite::class,
             'microsoft' => Microsoft::class,
             'uber' => Uber::class,
