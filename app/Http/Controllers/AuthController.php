@@ -29,8 +29,8 @@ class AuthController extends Controller
     protected function getAvailableProtocols()
     {
         return [
-            'oauth2' => ['bitbucket','box','elance','eventbrite','github','instagram','linkedin','microsoft','uber'],
-            'oauth1' => ['bitbucket','magento','trello','tumblr','twitter','uservoice'],
+            'oauth2' => $this->oauth2->getSupportedClientKeys(),
+            'oauth1' => $this->oauth1->getSupportedClientKeys(),
         ];
     }
 

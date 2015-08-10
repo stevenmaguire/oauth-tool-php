@@ -40,7 +40,23 @@ class OAuth2 extends Authentication
      */
     protected function getClientByProvider($provider, $credentials = [])
     {
-        $providers = [
+        $providers = $this->getClientMap();
+
+        if (isset($providers[$provider])) {
+            return new $providers[$provider]($credentials);
+        }
+
+        return null;
+    }
+
+    /**
+     * Retrieves array that maps client keys to client class.
+     *
+     * @return array
+     */
+    protected function getClientMap()
+    {
+        return [
             'bitbucket' => Bitbucket::class,
             'box' => Box::class,
             'github' => Github::class,
@@ -51,12 +67,16 @@ class OAuth2 extends Authentication
             'microsoft' => Microsoft::class,
             'uber' => Uber::class,
         ];
+    }
 
-        if (isset($providers[$provider])) {
-            return new $providers[$provider]($credentials);
-        }
-
-        return null;
+    /**
+     * Retrieves array of currently configured clients.
+     *
+     * @return array
+     */
+    public function getSupportedClientKeys()
+    {
+        return array_keys($this->getClientMap());
     }
 
     /**

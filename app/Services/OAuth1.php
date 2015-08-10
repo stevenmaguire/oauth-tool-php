@@ -29,6 +29,33 @@ class OAuth1 extends Authentication
     protected $tempCredentialsSessionKey = 'oauth1.tempCredentials';
 
     /**
+     * Retrieves array that maps server keys to server class.
+     *
+     * @return array
+     */
+    protected function getServerMap()
+    {
+        return [
+            'bitbucket' => Bitbucket::class,
+            'magento' => Magento::class,
+            'trello' => Trello::class,
+            'tumblr' => Tumblr::class,
+            'twitter' => Twitter::class,
+            'uservoice' => Uservoice::class,
+        ];
+    }
+
+    /**
+     * Retrieves array of currently configured clients.
+     *
+     * @return array
+     */
+    public function getSupportedClientKeys()
+    {
+        return array_keys($this->getServerMap());
+    }
+
+    /**
      * Attempt to create OAuth1 server provider.
      *
      * @param  string  $provider
@@ -38,14 +65,7 @@ class OAuth1 extends Authentication
      */
     protected function getServerByProvider($provider, $credentials = [])
     {
-        $servers = [
-            'bitbucket' => Bitbucket::class,
-            'magento' => Magento::class,
-            'trello' => Trello::class,
-            'tumblr' => Tumblr::class,
-            'twitter' => Twitter::class,
-            'uservoice' => Uservoice::class,
-        ];
+        $servers = $this->getServerMap();
 
         if (isset($servers[$provider])) {
             return new $servers[$provider]($credentials);

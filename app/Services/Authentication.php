@@ -5,6 +5,13 @@ use Illuminate\Http\Request;
 abstract class Authentication
 {
     /**
+     * Retrieves array of currently configured clients.
+     *
+     * @return array
+     */
+    abstract public function getSupportedClientKeys();
+
+    /**
      * Engage in login flow.
      *
      * @param  string   $provider
