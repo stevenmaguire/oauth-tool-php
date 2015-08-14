@@ -131,8 +131,6 @@ class OAuth2 extends Authentication
                 'code' => $code
             ]);
 
-            dd($token);
-
             try {
                 $identity = new Identity;
                 $identity->resourceOwner = $client->getResourceOwner($token);
@@ -140,9 +138,6 @@ class OAuth2 extends Authentication
 
                 return $identity;
             } catch (Exception $e) {
-                \Log::info($e->getMessage());
-                \Log::info($e->getTraceAsString());
-
                 throw new Exception('OAuth2 token exception');
             }
         }
