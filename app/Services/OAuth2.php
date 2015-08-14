@@ -138,6 +138,9 @@ class OAuth2 extends Authentication
 
                 return $identity;
             } catch (Exception $e) {
+                \Log::info($e->getMessage());
+                \Log::info($e->getTraceAsString());
+
                 throw new Exception('OAuth2 token exception');
             }
         }
