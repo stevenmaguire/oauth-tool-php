@@ -131,6 +131,8 @@ class OAuth2 extends Authentication
                 'code' => $code
             ]);
 
+            dd($token);
+
             try {
                 $identity = new Identity;
                 $identity->resourceOwner = $client->getResourceOwner($token);
