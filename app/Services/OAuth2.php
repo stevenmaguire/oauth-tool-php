@@ -127,19 +127,22 @@ class OAuth2 extends Authentication
         } elseif (empty($state)) {
             throw new Exception('OAuth2 flow exception, invalid state');
         } else {
+            $identity = new Identity;
+
             $token = $client->getAccessToken('authorization_code', [
                 'code' => $code
             ]);
 
-            try {
-                $identity = new Identity;
-                $identity->resourceOwner = $client->getResourceOwner($token);
-                $identity->accessToken = $token;
+            $identity->accessToken = $token;
 
-                return $identity;
+            try {
+                $identity->resourceOwner = $client->getResourceOwner($token);
             } catch (Exception $e) {
-                throw new Exception('OAuth2 token exception');
+                $identity->message = $e->getMessage();
+                //throw new Exception('OAuth2 token exception');
             }
+
+            return $identity;
         }
     }
 }

@@ -4,4 +4,5 @@ class Identity
 {
     public $resourceOwner;
     public $accessToken;
+    public $message;
 }
