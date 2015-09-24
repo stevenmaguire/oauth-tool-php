@@ -123,6 +123,8 @@ class AuthController extends Controller
                     return $result;
                 }
 
+                session()->flush();
+
                 return view('identity', ['identity' => $result]);
             }
 

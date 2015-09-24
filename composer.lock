@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "15930629e16069e66c045a33bceb7c39",
+    "hash": "f3ce26054b7662c242c7936a84442208",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "b0b2feffb47906a03b570777c07044c529d1d124"
+                "reference": "3a422c73f7bc556d39571f436b61fd58ccae0eb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/b0b2feffb47906a03b570777c07044c529d1d124",
-                "reference": "b0b2feffb47906a03b570777c07044c529d1d124",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/3a422c73f7bc556d39571f436b61fd58ccae0eb0",
+                "reference": "3a422c73f7bc556d39571f436b61fd58ccae0eb0",
                 "shasum": ""
             },
             "require": {
@@ -127,7 +127,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-07-07 15:32:45"
+            "time": "2015-09-17 13:29:15"
         },
         {
             "name": "guzzle/guzzle",
@@ -230,12 +230,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "d687700d601f8b5f19b99ffc1c0f6af835a3c7b7"
+                "reference": "768b4c0e3e0712a53eb35eaf3ba0d96910225389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d687700d601f8b5f19b99ffc1c0f6af835a3c7b7",
-                "reference": "d687700d601f8b5f19b99ffc1c0f6af835a3c7b7",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/768b4c0e3e0712a53eb35eaf3ba0d96910225389",
+                "reference": "768b4c0e3e0712a53eb35eaf3ba0d96910225389",
                 "shasum": ""
             },
             "require": {
@@ -251,7 +251,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.0-dev"
+                    "dev-master": "6.1-dev"
                 }
             },
             "autoload": {
@@ -284,7 +284,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2015-08-15 20:48:15"
+            "time": "2015-09-16 17:16:54"
         },
         {
             "name": "guzzlehttp/promises",
@@ -401,12 +401,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/auth.git",
-                "reference": "34848580ee14e549b80364578bb0b2dd485ecab0"
+                "reference": "e248247b1c57ddfaecc145338ea813f6d311673c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/auth/zipball/34848580ee14e549b80364578bb0b2dd485ecab0",
-                "reference": "34848580ee14e549b80364578bb0b2dd485ecab0",
+                "url": "https://api.github.com/repos/illuminate/auth/zipball/e248247b1c57ddfaecc145338ea813f6d311673c",
+                "reference": "e248247b1c57ddfaecc145338ea813f6d311673c",
                 "shasum": ""
             },
             "require": {
@@ -443,7 +443,7 @@
             ],
             "description": "The Illuminate Auth package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-14 13:53:48"
+            "time": "2015-09-18 04:24:56"
         },
         {
             "name": "illuminate/broadcasting",
@@ -498,12 +498,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
-                "reference": "74defbff32d3a3d793ae41f5863ce1660bfcbc42"
+                "reference": "13aeeda5ca61b407dbf3143e9c0633a1657848b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/bus/zipball/74defbff32d3a3d793ae41f5863ce1660bfcbc42",
-                "reference": "74defbff32d3a3d793ae41f5863ce1660bfcbc42",
+                "url": "https://api.github.com/repos/illuminate/bus/zipball/13aeeda5ca61b407dbf3143e9c0633a1657848b8",
+                "reference": "13aeeda5ca61b407dbf3143e9c0633a1657848b8",
                 "shasum": ""
             },
             "require": {
@@ -535,7 +535,7 @@
             ],
             "description": "The Illuminate Bus package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-01 14:18:14"
+            "time": "2015-08-25 00:21:39"
         },
         {
             "name": "illuminate/cache",
@@ -543,12 +543,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
-                "reference": "36f8f374ec8d684d2f336f09484d8f59fb155591"
+                "reference": "d0bae60a7ff963732cc70a15e0eb289b2dd9724e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cache/zipball/36f8f374ec8d684d2f336f09484d8f59fb155591",
-                "reference": "36f8f374ec8d684d2f336f09484d8f59fb155591",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/d0bae60a7ff963732cc70a15e0eb289b2dd9724e",
+                "reference": "d0bae60a7ff963732cc70a15e0eb289b2dd9724e",
                 "shasum": ""
             },
             "require": {
@@ -585,7 +585,7 @@
             ],
             "description": "The Illuminate Cache package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-03 13:22:10"
+            "time": "2015-09-10 16:46:53"
         },
         {
             "name": "illuminate/config",
@@ -638,12 +638,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
-                "reference": "03aad9f37d1450705452ed2b2923392e2459a8f2"
+                "reference": "6da3c6cfe90068665f2e66613f63525198f2bb3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/console/zipball/03aad9f37d1450705452ed2b2923392e2459a8f2",
-                "reference": "03aad9f37d1450705452ed2b2923392e2459a8f2",
+                "url": "https://api.github.com/repos/illuminate/console/zipball/6da3c6cfe90068665f2e66613f63525198f2bb3c",
+                "reference": "6da3c6cfe90068665f2e66613f63525198f2bb3c",
                 "shasum": ""
             },
             "require": {
@@ -681,7 +681,7 @@
             ],
             "description": "The Illuminate Console package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-12 14:49:07"
+            "time": "2015-09-17 17:16:29"
         },
         {
             "name": "illuminate/container",
@@ -689,12 +689,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "eb84dcb971b88ad43d3e213cb6442577fd2ce8f1"
+                "reference": "cf512ac3fcd46cf9be5abee96a619170f6b4a162"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/eb84dcb971b88ad43d3e213cb6442577fd2ce8f1",
-                "reference": "eb84dcb971b88ad43d3e213cb6442577fd2ce8f1",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/cf512ac3fcd46cf9be5abee96a619170f6b4a162",
+                "reference": "cf512ac3fcd46cf9be5abee96a619170f6b4a162",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-14 13:00:22"
+            "time": "2015-09-22 11:44:48"
         },
         {
             "name": "illuminate/contracts",
@@ -732,12 +732,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "efde66da947d295e2a3175cb990f87fc293595e6"
+                "reference": "c3299e00a695e7d846790d5de007355a96cebc90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/efde66da947d295e2a3175cb990f87fc293595e6",
-                "reference": "efde66da947d295e2a3175cb990f87fc293595e6",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/c3299e00a695e7d846790d5de007355a96cebc90",
+                "reference": "c3299e00a695e7d846790d5de007355a96cebc90",
                 "shasum": ""
             },
             "require": {
@@ -766,7 +766,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-01 00:02:33"
+            "time": "2015-08-31 12:59:22"
         },
         {
             "name": "illuminate/cookie",
@@ -774,12 +774,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cookie.git",
-                "reference": "966260b6c39d8ec6977a47a845ed23e50bdbe919"
+                "reference": "82e4cfc44eb44540907e9ab927de10b284e934e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cookie/zipball/966260b6c39d8ec6977a47a845ed23e50bdbe919",
-                "reference": "966260b6c39d8ec6977a47a845ed23e50bdbe919",
+                "url": "https://api.github.com/repos/illuminate/cookie/zipball/82e4cfc44eb44540907e9ab927de10b284e934e5",
+                "reference": "82e4cfc44eb44540907e9ab927de10b284e934e5",
                 "shasum": ""
             },
             "require": {
@@ -812,7 +812,7 @@
             ],
             "description": "The Illuminate Cookie package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-01 00:02:33"
+            "time": "2015-09-22 11:44:48"
         },
         {
             "name": "illuminate/database",
@@ -820,12 +820,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "102be36b2e8507a542a4a368aea15a3f9b58b97a"
+                "reference": "af172304a770a97333e022d9b61a30e024a9414e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/102be36b2e8507a542a4a368aea15a3f9b58b97a",
-                "reference": "102be36b2e8507a542a4a368aea15a3f9b58b97a",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/af172304a770a97333e022d9b61a30e024a9414e",
+                "reference": "af172304a770a97333e022d9b61a30e024a9414e",
                 "shasum": ""
             },
             "require": {
@@ -871,7 +871,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2015-08-19 15:34:06"
+            "time": "2015-09-23 20:51:37"
         },
         {
             "name": "illuminate/encryption",
@@ -970,12 +970,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "80befa78cf82880a1ac1921676d77334ea51d3a2"
+                "reference": "2cd81653614e3feb443914dd9f49b980cef36b85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/80befa78cf82880a1ac1921676d77334ea51d3a2",
-                "reference": "80befa78cf82880a1ac1921676d77334ea51d3a2",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/2cd81653614e3feb443914dd9f49b980cef36b85",
+                "reference": "2cd81653614e3feb443914dd9f49b980cef36b85",
                 "shasum": ""
             },
             "require": {
@@ -1012,7 +1012,7 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-01 00:02:33"
+            "time": "2015-08-24 08:44:48"
         },
         {
             "name": "illuminate/hashing",
@@ -1064,12 +1064,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "ad2b8e306ec54f1b2bb15214d645d00273c0c199"
+                "reference": "51fe7e4b82057d2812f4b9dac26d5d0337dcf2c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/ad2b8e306ec54f1b2bb15214d645d00273c0c199",
-                "reference": "ad2b8e306ec54f1b2bb15214d645d00273c0c199",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/51fe7e4b82057d2812f4b9dac26d5d0337dcf2c6",
+                "reference": "51fe7e4b82057d2812f4b9dac26d5d0337dcf2c6",
                 "shasum": ""
             },
             "require": {
@@ -1102,7 +1102,7 @@
             ],
             "description": "The Illuminate Http package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-01 00:02:33"
+            "time": "2015-09-22 11:44:48"
         },
         {
             "name": "illuminate/pagination",
@@ -1198,12 +1198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
-                "reference": "b6017c36e21132d5d30abf8c9b7f3376e120eb71"
+                "reference": "89d5eea7161e7205f01bccaa4baa3c126d0be1a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/queue/zipball/b6017c36e21132d5d30abf8c9b7f3376e120eb71",
-                "reference": "b6017c36e21132d5d30abf8c9b7f3376e120eb71",
+                "url": "https://api.github.com/repos/illuminate/queue/zipball/89d5eea7161e7205f01bccaa4baa3c126d0be1a0",
+                "reference": "89d5eea7161e7205f01bccaa4baa3c126d0be1a0",
                 "shasum": ""
             },
             "require": {
@@ -1248,7 +1248,7 @@
             ],
             "description": "The Illuminate Queue package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-16 14:07:18"
+            "time": "2015-09-22 11:44:48"
         },
         {
             "name": "illuminate/session",
@@ -1256,12 +1256,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
-                "reference": "57972f31b3bcd7996e7ce1a89d567904bd2282f1"
+                "reference": "6b8b337c9495493cb1f56e7aa7bdc20645ce0905"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/session/zipball/57972f31b3bcd7996e7ce1a89d567904bd2282f1",
-                "reference": "57972f31b3bcd7996e7ce1a89d567904bd2282f1",
+                "url": "https://api.github.com/repos/illuminate/session/zipball/6b8b337c9495493cb1f56e7aa7bdc20645ce0905",
+                "reference": "6b8b337c9495493cb1f56e7aa7bdc20645ce0905",
                 "shasum": ""
             },
             "require": {
@@ -1298,7 +1298,7 @@
             ],
             "description": "The Illuminate Session package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-01 00:02:33"
+            "time": "2015-09-16 10:00:03"
         },
         {
             "name": "illuminate/support",
@@ -1306,12 +1306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "8e64b4df17764724d45079d8e6e6f89b204d27ff"
+                "reference": "09d14175a8ca5adf8b1eb17d617f9ecd388de6d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/8e64b4df17764724d45079d8e6e6f89b204d27ff",
-                "reference": "8e64b4df17764724d45079d8e6e6f89b204d27ff",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/09d14175a8ca5adf8b1eb17d617f9ecd388de6d3",
+                "reference": "09d14175a8ca5adf8b1eb17d617f9ecd388de6d3",
                 "shasum": ""
             },
             "require": {
@@ -1351,7 +1351,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2015-08-17 16:46:06"
+            "time": "2015-09-18 23:38:16"
         },
         {
             "name": "illuminate/translation",
@@ -1454,12 +1454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "935d6ccb5fcc945c287b4b5868a8d8a2696611e0"
+                "reference": "52df86af929474790e4fd781fbf2380b48c5f20f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/935d6ccb5fcc945c287b4b5868a8d8a2696611e0",
-                "reference": "935d6ccb5fcc945c287b4b5868a8d8a2696611e0",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/52df86af929474790e4fd781fbf2380b48c5f20f",
+                "reference": "52df86af929474790e4fd781fbf2380b48c5f20f",
                 "shasum": ""
             },
             "require": {
@@ -1493,7 +1493,7 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "http://laravel.com",
-            "time": "2015-07-31 11:02:25"
+            "time": "2015-09-08 18:20:30"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -1601,12 +1601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/lumen-framework.git",
-                "reference": "7b0a42e3ad1339892368205c481c5aa180c7a347"
+                "reference": "5a097e86d584084f84697d66989c668c509006ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/7b0a42e3ad1339892368205c481c5aa180c7a347",
-                "reference": "7b0a42e3ad1339892368205c481c5aa180c7a347",
+                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/5a097e86d584084f84697d66989c668c509006ce",
+                "reference": "5a097e86d584084f84697d66989c668c509006ce",
                 "shasum": ""
             },
             "require": {
@@ -1678,20 +1678,20 @@
                 "laravel",
                 "lumen"
             ],
-            "time": "2015-08-16 01:31:50"
+            "time": "2015-09-11 16:44:27"
         },
         {
             "name": "league/oauth1-client",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth1-client.git",
-                "reference": "815b2dbd2b866409f3de6e4046a76e66b5af608e"
+                "reference": "4d4edd9b6014f882e319231a9b3351e3a1dfdc81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth1-client/zipball/815b2dbd2b866409f3de6e4046a76e66b5af608e",
-                "reference": "815b2dbd2b866409f3de6e4046a76e66b5af608e",
+                "url": "https://api.github.com/repos/thephpleague/oauth1-client/zipball/4d4edd9b6014f882e319231a9b3351e3a1dfdc81",
+                "reference": "4d4edd9b6014f882e319231a9b3351e3a1dfdc81",
                 "shasum": ""
             },
             "require": {
@@ -1699,9 +1699,9 @@
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "mockery/mockery": "0.7.2",
-                "phpunit/phpunit": "*",
-                "satooshi/php-coveralls": "dev-master"
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
             "extra": {
@@ -1741,20 +1741,20 @@
                 "tumblr",
                 "twitter"
             ],
-            "time": "2015-05-18 00:04:43"
+            "time": "2015-08-22 09:49:14"
         },
         {
             "name": "league/oauth2-client",
-            "version": "1.0.0-beta2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-client.git",
-                "reference": "ef48d09d0a36508c4df40432b0e5f4a4d0be4295"
+                "reference": "c223fe4109bb2dd7fac36425d4c946f979901842"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/ef48d09d0a36508c4df40432b0e5f4a4d0be4295",
-                "reference": "ef48d09d0a36508c4df40432b0e5f4a4d0be4295",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/c223fe4109bb2dd7fac36425d4c946f979901842",
+                "reference": "c223fe4109bb2dd7fac36425d4c946f979901842",
                 "shasum": ""
             },
             "require": {
@@ -1804,7 +1804,7 @@
                 "oauth2",
                 "single sign on"
             ],
-            "time": "2015-08-12 13:46:33"
+            "time": "2015-09-23 18:27:18"
         },
         {
             "name": "league/oauth2-github",
@@ -1812,16 +1812,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-github.git",
-                "reference": "33b73e31d703485447aa0df57bce9fb9a56469f1"
+                "reference": "67f394f40fdb362174149393daabf5d87d67ade4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-github/zipball/33b73e31d703485447aa0df57bce9fb9a56469f1",
-                "reference": "33b73e31d703485447aa0df57bce9fb9a56469f1",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-github/zipball/67f394f40fdb362174149393daabf5d87d67ade4",
+                "reference": "67f394f40fdb362174149393daabf5d87d67ade4",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -1860,7 +1860,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-12 16:22:43"
+            "time": "2015-08-20 15:16:21"
         },
         {
             "name": "league/oauth2-instagram",
@@ -1868,16 +1868,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-instagram.git",
-                "reference": "8e1963361f6b8ee1c1d1dbfa9353f80faf34c716"
+                "reference": "db107b47310ba1a21b57233f8b10abeb81035dee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-instagram/zipball/8e1963361f6b8ee1c1d1dbfa9353f80faf34c716",
-                "reference": "8e1963361f6b8ee1c1d1dbfa9353f80faf34c716",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-instagram/zipball/db107b47310ba1a21b57233f8b10abeb81035dee",
+                "reference": "db107b47310ba1a21b57233f8b10abeb81035dee",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -1916,7 +1916,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-12 16:21:39"
+            "time": "2015-08-20 15:08:42"
         },
         {
             "name": "league/oauth2-linkedin",
@@ -1924,16 +1924,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-linkedin.git",
-                "reference": "dafe0327fd9bdc80a7e97d7971e0d0a5d0688789"
+                "reference": "04d30e7c59963396156daf39aa84e8521ca470e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-linkedin/zipball/dafe0327fd9bdc80a7e97d7971e0d0a5d0688789",
-                "reference": "dafe0327fd9bdc80a7e97d7971e0d0a5d0688789",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-linkedin/zipball/04d30e7c59963396156daf39aa84e8521ca470e1",
+                "reference": "04d30e7c59963396156daf39aa84e8521ca470e1",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -1972,20 +1972,20 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-12 16:19:23"
+            "time": "2015-08-20 14:59:40"
         },
         {
             "name": "monolog/monolog",
-            "version": "dev-master",
+            "version": "1.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "d58755629d665abe7955e87ecb0a7a17912670ad"
+                "reference": "0524c87587ab85bc4c2d6f5b41253ccb930a5422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d58755629d665abe7955e87ecb0a7a17912670ad",
-                "reference": "d58755629d665abe7955e87ecb0a7a17912670ad",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/0524c87587ab85bc4c2d6f5b41253ccb930a5422",
+                "reference": "0524c87587ab85bc4c2d6f5b41253ccb930a5422",
                 "shasum": ""
             },
             "require": {
@@ -2048,7 +2048,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-08-17 16:40:30"
+            "time": "2015-08-31 09:17:37"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -2285,16 +2285,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-bitbucket.git",
-                "reference": "7aa26c4f1f57608184520288c5809582cf53588d"
+                "reference": "754204cb0fc89676c9f513ddac198d51a65cf635"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-bitbucket/zipball/7aa26c4f1f57608184520288c5809582cf53588d",
-                "reference": "7aa26c4f1f57608184520288c5809582cf53588d",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-bitbucket/zipball/754204cb0fc89676c9f513ddac198d51a65cf635",
+                "reference": "754204cb0fc89676c9f513ddac198d51a65cf635",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -2333,7 +2333,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-12 16:16:14"
+            "time": "2015-08-20 14:32:29"
         },
         {
             "name": "stevenmaguire/oauth2-box",
@@ -2341,16 +2341,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-box.git",
-                "reference": "1554a5b235d019b4b0f1a5f3161726f1fcaf22b1"
+                "reference": "40cf24a43fc8c99d1a51238eff24f0181024d9a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-box/zipball/1554a5b235d019b4b0f1a5f3161726f1fcaf22b1",
-                "reference": "1554a5b235d019b4b0f1a5f3161726f1fcaf22b1",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-box/zipball/40cf24a43fc8c99d1a51238eff24f0181024d9a5",
+                "reference": "40cf24a43fc8c99d1a51238eff24f0181024d9a5",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -2389,7 +2389,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-12 16:17:05"
+            "time": "2015-08-20 14:36:02"
         },
         {
             "name": "stevenmaguire/oauth2-elance",
@@ -2397,16 +2397,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-elance.git",
-                "reference": "02a24eb8a98ae72dcd56b8afaab83d3cb0311f81"
+                "reference": "ff355c9e345cd3e5edafc00adcb5ed121e21d56d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-elance/zipball/02a24eb8a98ae72dcd56b8afaab83d3cb0311f81",
-                "reference": "02a24eb8a98ae72dcd56b8afaab83d3cb0311f81",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-elance/zipball/ff355c9e345cd3e5edafc00adcb5ed121e21d56d",
+                "reference": "ff355c9e345cd3e5edafc00adcb5ed121e21d56d",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -2445,7 +2445,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-15 21:39:02"
+            "time": "2015-08-20 13:55:16"
         },
         {
             "name": "stevenmaguire/oauth2-eventbrite",
@@ -2453,16 +2453,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-eventbrite.git",
-                "reference": "3dac09f7d030a02691a4a3cef1bc981a9ff68d35"
+                "reference": "b5cac1eef91b6110af6501d4a3e1eb93a281d8a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-eventbrite/zipball/3dac09f7d030a02691a4a3cef1bc981a9ff68d35",
-                "reference": "3dac09f7d030a02691a4a3cef1bc981a9ff68d35",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-eventbrite/zipball/b5cac1eef91b6110af6501d4a3e1eb93a281d8a0",
+                "reference": "b5cac1eef91b6110af6501d4a3e1eb93a281d8a0",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -2501,7 +2501,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-12 16:14:15"
+            "time": "2015-08-20 14:15:21"
         },
         {
             "name": "stevenmaguire/oauth2-keycloak",
@@ -2509,16 +2509,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-keycloak.git",
-                "reference": "2ee354c8f4e1fe0f08388b6e57928674a5505bc1"
+                "reference": "0502481587e5e89ccb5adc08a996f90409678d3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-keycloak/zipball/2ee354c8f4e1fe0f08388b6e57928674a5505bc1",
-                "reference": "2ee354c8f4e1fe0f08388b6e57928674a5505bc1",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-keycloak/zipball/0502481587e5e89ccb5adc08a996f90409678d3b",
+                "reference": "0502481587e5e89ccb5adc08a996f90409678d3b",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -2557,7 +2557,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-13 17:58:01"
+            "time": "2015-08-31 18:43:40"
         },
         {
             "name": "stevenmaguire/oauth2-microsoft",
@@ -2565,16 +2565,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-microsoft.git",
-                "reference": "c618372da3467562f88bd0c4435e11c58da88e77"
+                "reference": "1141315e8e878cf2c9847193a675fcde0a157a8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-microsoft/zipball/c618372da3467562f88bd0c4435e11c58da88e77",
-                "reference": "c618372da3467562f88bd0c4435e11c58da88e77",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-microsoft/zipball/1141315e8e878cf2c9847193a675fcde0a157a8c",
+                "reference": "1141315e8e878cf2c9847193a675fcde0a157a8c",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -2613,7 +2613,63 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-12 16:13:19"
+            "time": "2015-08-20 14:08:56"
+        },
+        {
+            "name": "stevenmaguire/oauth2-paypal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stevenmaguire/oauth2-paypal.git",
+                "reference": "971928673708b477fa959d757bb2e4d16e313f09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-paypal/zipball/971928673708b477fa959d757bb2e4d16e313f09",
+                "reference": "971928673708b477fa959d757bb2e4d16e313f09",
+                "shasum": ""
+            },
+            "require": {
+                "league/oauth2-client": "~1.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stevenmaguire\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steven Maguire",
+                    "email": "stevenmaguire@gmail.com",
+                    "homepage": "https://github.com/stevenmaguire"
+                }
+            ],
+            "description": "Paypal OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "authorisation",
+                "authorization",
+                "client",
+                "oauth",
+                "oauth2",
+                "paypal"
+            ],
+            "time": "2015-09-24 03:18:34"
         },
         {
             "name": "stevenmaguire/oauth2-uber",
@@ -2621,16 +2677,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stevenmaguire/oauth2-uber.git",
-                "reference": "d17e5b909c36bd458691e0c1546d553212476c68"
+                "reference": "840b20eada468dc13cac2e4b81e99bac60aa8d24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stevenmaguire/oauth2-uber/zipball/d17e5b909c36bd458691e0c1546d553212476c68",
-                "reference": "d17e5b909c36bd458691e0c1546d553212476c68",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-uber/zipball/840b20eada468dc13cac2e4b81e99bac60aa8d24",
+                "reference": "840b20eada468dc13cac2e4b81e99bac60aa8d24",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "1.0.0-beta2",
+                "league/oauth2-client": "~1.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -2669,7 +2725,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2015-08-12 16:15:17"
+            "time": "2015-08-20 14:25:49"
         },
         {
             "name": "symfony/console",
@@ -2677,12 +2733,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "547582fa5c445a167a5ad6ffd88be14798efb4f0"
+                "reference": "296a9bf984b1cffce4025197d6745aa023b8bef3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/547582fa5c445a167a5ad6ffd88be14798efb4f0",
-                "reference": "547582fa5c445a167a5ad6ffd88be14798efb4f0",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/296a9bf984b1cffce4025197d6745aa023b8bef3",
+                "reference": "296a9bf984b1cffce4025197d6745aa023b8bef3",
                 "shasum": ""
             },
             "require": {
@@ -2726,7 +2782,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-08-11 20:08:57"
+            "time": "2015-09-22 13:49:29"
         },
         {
             "name": "symfony/debug",
@@ -2734,12 +2790,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
-                "reference": "e6ce720c140d144e2b2e2b14d36b887011e2a578"
+                "reference": "795e333a070c564dde1ac55dff8f774b2970b2b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/e6ce720c140d144e2b2e2b14d36b887011e2a578",
-                "reference": "e6ce720c140d144e2b2e2b14d36b887011e2a578",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/795e333a070c564dde1ac55dff8f774b2970b2b2",
+                "reference": "795e333a070c564dde1ac55dff8f774b2970b2b2",
                 "shasum": ""
             },
             "require": {
@@ -2781,7 +2837,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2015-08-01 06:34:55"
+            "time": "2015-09-14 14:15:17"
         },
         {
             "name": "symfony/dom-crawler",
@@ -2789,12 +2845,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "9dabece63182e95c42b06967a0d929a5df78bc35"
+                "reference": "2e185ca136399f902b948694987e62c80099c052"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/9dabece63182e95c42b06967a0d929a5df78bc35",
-                "reference": "9dabece63182e95c42b06967a0d929a5df78bc35",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/2e185ca136399f902b948694987e62c80099c052",
+                "reference": "2e185ca136399f902b948694987e62c80099c052",
                 "shasum": ""
             },
             "require": {
@@ -2834,7 +2890,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-09 16:07:40"
+            "time": "2015-09-20 21:13:58"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2842,12 +2898,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "d7246885b7fe4cb5a2786bda34362d2f0e40b730"
+                "reference": "0ef7669c0af9f62752a96a5d43c1b13c5c2e70e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/d7246885b7fe4cb5a2786bda34362d2f0e40b730",
-                "reference": "d7246885b7fe4cb5a2786bda34362d2f0e40b730",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/0ef7669c0af9f62752a96a5d43c1b13c5c2e70e9",
+                "reference": "0ef7669c0af9f62752a96a5d43c1b13c5c2e70e9",
                 "shasum": ""
             },
             "require": {
@@ -2892,7 +2948,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-24 15:32:32"
+            "time": "2015-09-22 13:49:41"
         },
         {
             "name": "symfony/finder",
@@ -2900,12 +2956,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "ae0f363277485094edc04c9f3cbe595b183b78e4"
+                "reference": "8262ab605973afbb3ef74b945daabf086f58366f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/ae0f363277485094edc04c9f3cbe595b183b78e4",
-                "reference": "ae0f363277485094edc04c9f3cbe595b183b78e4",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/8262ab605973afbb3ef74b945daabf086f58366f",
+                "reference": "8262ab605973afbb3ef74b945daabf086f58366f",
                 "shasum": ""
             },
             "require": {
@@ -2941,7 +2997,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-09 16:07:40"
+            "time": "2015-09-19 19:59:23"
         },
         {
             "name": "symfony/http-foundation",
@@ -2949,12 +3005,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "38c326b689dda8f33223a74e30c42526c684fe2e"
+                "reference": "e1509119f164a0d0a940d7d924d693a7a28a5470"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/38c326b689dda8f33223a74e30c42526c684fe2e",
-                "reference": "38c326b689dda8f33223a74e30c42526c684fe2e",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/e1509119f164a0d0a940d7d924d693a7a28a5470",
+                "reference": "e1509119f164a0d0a940d7d924d693a7a28a5470",
                 "shasum": ""
             },
             "require": {
@@ -2994,7 +3050,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2015-08-05 15:45:00"
+            "time": "2015-09-22 13:49:29"
         },
         {
             "name": "symfony/http-kernel",
@@ -3002,12 +3058,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "4ae2f30c63b4814db8b3a1d5471788e5a79f9c37"
+                "reference": "b54cd36cccc1a01cc57d1ef6bedf15137c6f6b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/4ae2f30c63b4814db8b3a1d5471788e5a79f9c37",
-                "reference": "4ae2f30c63b4814db8b3a1d5471788e5a79f9c37",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/b54cd36cccc1a01cc57d1ef6bedf15137c6f6b46",
+                "reference": "b54cd36cccc1a01cc57d1ef6bedf15137c6f6b46",
                 "shasum": ""
             },
             "require": {
@@ -3074,7 +3130,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-31 13:51:28"
+            "time": "2015-09-14 14:14:09"
         },
         {
             "name": "symfony/process",
@@ -3082,12 +3138,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "48aeb0e48600321c272955132d7606ab0a49adb3"
+                "reference": "b27c8e317922cd3cdd3600850273cf6b82b2e8e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/48aeb0e48600321c272955132d7606ab0a49adb3",
-                "reference": "48aeb0e48600321c272955132d7606ab0a49adb3",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/b27c8e317922cd3cdd3600850273cf6b82b2e8e9",
+                "reference": "b27c8e317922cd3cdd3600850273cf6b82b2e8e9",
                 "shasum": ""
             },
             "require": {
@@ -3123,7 +3179,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-01 11:25:50"
+            "time": "2015-09-19 19:59:23"
         },
         {
             "name": "symfony/security-core",
@@ -3131,12 +3187,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security-core.git",
-                "reference": "9d527757035db08648a6cd41c165ae7869dd534e"
+                "reference": "433a7b8e77372952a7938ed00ad79d958901f29c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-core/zipball/9d527757035db08648a6cd41c165ae7869dd534e",
-                "reference": "9d527757035db08648a6cd41c165ae7869dd534e",
+                "url": "https://api.github.com/repos/symfony/security-core/zipball/433a7b8e77372952a7938ed00ad79d958901f29c",
+                "reference": "433a7b8e77372952a7938ed00ad79d958901f29c",
                 "shasum": ""
             },
             "require": {
@@ -3186,7 +3242,7 @@
             ],
             "description": "Symfony Security Component - Core Library",
             "homepage": "https://symfony.com",
-            "time": "2015-07-22 10:11:00"
+            "time": "2015-09-09 17:42:36"
         },
         {
             "name": "symfony/translation",
@@ -3194,12 +3250,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation.git",
-                "reference": "c8dc34cc936152c609cdd722af317e4239d10dd6"
+                "reference": "485877661835e188cd78345c6d4eef1290d17571"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Translation/zipball/c8dc34cc936152c609cdd722af317e4239d10dd6",
-                "reference": "c8dc34cc936152c609cdd722af317e4239d10dd6",
+                "url": "https://api.github.com/repos/symfony/Translation/zipball/485877661835e188cd78345c6d4eef1290d17571",
+                "reference": "485877661835e188cd78345c6d4eef1290d17571",
                 "shasum": ""
             },
             "require": {
@@ -3211,7 +3267,7 @@
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/config": "~2.7",
-                "symfony/intl": "~2.3",
+                "symfony/intl": "~2.4",
                 "symfony/phpunit-bridge": "~2.7",
                 "symfony/yaml": "~2.2"
             },
@@ -3247,7 +3303,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-09 16:07:40"
+            "time": "2015-09-06 08:36:38"
         },
         {
             "name": "symfony/var-dumper",
@@ -3255,12 +3311,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "479c4f743f0faf94a21224456154581e51076fa3"
+                "reference": "9ed31f6d6e9542425f98eea2ea4f21c7eacb0103"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/479c4f743f0faf94a21224456154581e51076fa3",
-                "reference": "479c4f743f0faf94a21224456154581e51076fa3",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/9ed31f6d6e9542425f98eea2ea4f21c7eacb0103",
+                "reference": "9ed31f6d6e9542425f98eea2ea4f21c7eacb0103",
                 "shasum": ""
             },
             "require": {
@@ -3306,7 +3362,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2015-08-17 08:58:33"
+            "time": "2015-09-15 12:30:50"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -3416,23 +3472,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "5015592f93c764c48f440511f56a6c83ce744137"
+                "reference": "c8097f5f5db48aa32ae067b84aee4c0fc419b30c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/5015592f93c764c48f440511f56a6c83ce744137",
-                "reference": "5015592f93c764c48f440511f56a6c83ce744137",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/c8097f5f5db48aa32ae067b84aee4c0fc419b30c",
+                "reference": "c8097f5f5db48aa32ae067b84aee4c0fc419b30c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
+                "ext-intl": "*",
                 "phpunit/phpunit": "~4.0",
                 "squizlabs/php_codesniffer": "~1.5"
-            },
-            "suggest": {
-                "ext-intl": "*"
             },
             "type": "library",
             "extra": {
@@ -3460,7 +3514,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-08-06 15:02:52"
+            "time": "2015-09-18 14:17:14"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -3517,12 +3571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "80da5500014051b9e70740f183c5e5586f38f977"
+                "reference": "4f9b1eaf0a7da77c362f8d91cbc68ab1f4718d62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/80da5500014051b9e70740f183c5e5586f38f977",
-                "reference": "80da5500014051b9e70740f183c5e5586f38f977",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/4f9b1eaf0a7da77c362f8d91cbc68ab1f4718d62",
+                "reference": "4f9b1eaf0a7da77c362f8d91cbc68ab1f4718d62",
                 "shasum": ""
             },
             "require": {
@@ -3569,20 +3623,20 @@
                 "spy",
                 "stub"
             ],
-            "time": "2015-08-13 10:25:47"
+            "time": "2015-09-22 14:49:23"
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "dev-master",
+            "version": "2.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "751653e81e3fcbddbe026f36e6e16fafd0a19f46"
+                "reference": "ef1ca6835468857944d5c3b48fa503d5554cff2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/751653e81e3fcbddbe026f36e6e16fafd0a19f46",
-                "reference": "751653e81e3fcbddbe026f36e6e16fafd0a19f46",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ef1ca6835468857944d5c3b48fa503d5554cff2f",
+                "reference": "ef1ca6835468857944d5c3b48fa503d5554cff2f",
                 "shasum": ""
             },
             "require": {
@@ -3631,7 +3685,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-08-17 07:51:01"
+            "time": "2015-09-14 06:51:16"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -3768,12 +3822,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "92d472f7ac0cd45b7f6d66cb807646432cf89f5d"
+                "reference": "cab6c6fefee93d7b7c3a01292a0fe0884ea66644"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/92d472f7ac0cd45b7f6d66cb807646432cf89f5d",
-                "reference": "92d472f7ac0cd45b7f6d66cb807646432cf89f5d",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/cab6c6fefee93d7b7c3a01292a0fe0884ea66644",
+                "reference": "cab6c6fefee93d7b7c3a01292a0fe0884ea66644",
                 "shasum": ""
             },
             "require": {
@@ -3809,7 +3863,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-08-18 15:47:59"
+            "time": "2015-09-23 14:46:55"
         },
         {
             "name": "phpunit/phpunit",
@@ -3817,12 +3871,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "9b7417edaf28059ea63d86be941e6004dbfcc0cc"
+                "reference": "73fad41adb5b7bc3a494bb930d90648df1d5e74b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9b7417edaf28059ea63d86be941e6004dbfcc0cc",
-                "reference": "9b7417edaf28059ea63d86be941e6004dbfcc0cc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/73fad41adb5b7bc3a494bb930d90648df1d5e74b",
+                "reference": "73fad41adb5b7bc3a494bb930d90648df1d5e74b",
                 "shasum": ""
             },
             "require": {
@@ -3881,7 +3935,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-08-19 09:20:57"
+            "time": "2015-09-20 12:56:44"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -4317,12 +4371,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "d067e47c2be88b62c3e50d1362d959efc46ffefc"
+                "reference": "b68154f3ee23d8294936433fd31725a83bd02f71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/d067e47c2be88b62c3e50d1362d959efc46ffefc",
-                "reference": "d067e47c2be88b62c3e50d1362d959efc46ffefc",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/b68154f3ee23d8294936433fd31725a83bd02f71",
+                "reference": "b68154f3ee23d8294936433fd31725a83bd02f71",
                 "shasum": ""
             },
             "require": {
@@ -4358,7 +4412,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-08-01 06:48:35"
+            "time": "2015-09-14 14:15:24"
         }
     ],
     "aliases": [],
@@ -4373,6 +4427,7 @@
         "stevenmaguire/oauth2-box": 20,
         "stevenmaguire/oauth2-bitbucket": 20,
         "stevenmaguire/oauth2-elance": 20,
+        "stevenmaguire/oauth2-paypal": 20,
         "stevenmaguire/oauth2-keycloak": 20
     },
     "prefer-stable": false,

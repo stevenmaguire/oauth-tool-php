@@ -12,6 +12,7 @@ use Stevenmaguire\OAuth2\Client\Provider\Box;
 use Stevenmaguire\OAuth2\Client\Provider\Elance;
 use Stevenmaguire\OAuth2\Client\Provider\Eventbrite;
 use Stevenmaguire\OAuth2\Client\Provider\Microsoft;
+use Stevenmaguire\OAuth2\Client\Provider\Paypal;
 use Stevenmaguire\OAuth2\Client\Provider\Uber;
 
 class OAuth2 extends Authentication
@@ -65,6 +66,7 @@ class OAuth2 extends Authentication
             'elance' => Elance::class,
             'eventbrite' => Eventbrite::class,
             'microsoft' => Microsoft::class,
+            'paypal' => Paypal::class,
             'uber' => Uber::class,
         ];
     }
@@ -93,7 +95,7 @@ class OAuth2 extends Authentication
         $provider = strtolower($provider);
         $code = $request->input('code');
         $state = $request->input('state') ?: $this->getFromSession($this->stateSessionKey);
-        $scopes = array_map('trim', explode(',', $request->input('scopes')));
+        $scopes = array_filter(array_map('trim', explode(',', $request->input('scopes'))));
         $credentials = [
             'key' => $request->input('key'),
             'secret' => $request->input('secret')
@@ -108,7 +110,8 @@ class OAuth2 extends Authentication
         $client = $this->getClientByProvider($provider, [
             'clientId'          => $credentials['key'],
             'clientSecret'      => $credentials['secret'],
-            'redirectUri'       => route('auth', ['protocol' => 'oauth2', 'provider' => $provider])
+            'redirectUri'       => route('auth', ['protocol' => 'oauth2', 'provider' => $provider]),
+            'isSandbox'         => true
         ]);
 
         if (empty($client)) {
@@ -116,9 +119,13 @@ class OAuth2 extends Authentication
         }
 
         if (empty($code)) {
-            $authUrl = $client->getAuthorizationUrl([
-                'scope' => $scopes
-            ]);
+            if (!empty($scopes)) {
+                $authUrl = $client->getAuthorizationUrl([
+                    'scope' => $scopes
+                ]);
+            } else {
+                $authUrl = $client->getAuthorizationUrl();
+            }
 
             $this->addToSession($this->credentialsSessionKey, $credentials);
             $this->addToSession($this->stateSessionKey, $client->getState());

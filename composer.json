@@ -16,6 +16,7 @@
         "stevenmaguire/oauth2-box": "1.0.x-dev",
         "stevenmaguire/oauth2-bitbucket": "1.0.x-dev",
         "stevenmaguire/oauth2-elance": "1.0.x-dev",
+        "stevenmaguire/oauth2-paypal": "1.0.x-dev",
         "stevenmaguire/oauth2-keycloak": "^1.0@dev",
         "league/oauth1-client": "^1.5"
     },
