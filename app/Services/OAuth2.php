@@ -11,8 +11,10 @@ use Stevenmaguire\OAuth2\Client\Provider\Bitbucket;
 use Stevenmaguire\OAuth2\Client\Provider\Box;
 use Stevenmaguire\OAuth2\Client\Provider\Elance;
 use Stevenmaguire\OAuth2\Client\Provider\Eventbrite;
+use Stevenmaguire\OAuth2\Client\Provider\Foursquare;
 use Stevenmaguire\OAuth2\Client\Provider\Microsoft;
 use Stevenmaguire\OAuth2\Client\Provider\Paypal;
+use Stevenmaguire\OAuth2\Client\Provider\Salesforce;
 use Stevenmaguire\OAuth2\Client\Provider\Uber;
 
 class OAuth2 extends Authentication
@@ -65,8 +67,10 @@ class OAuth2 extends Authentication
             'linkedin' => LinkedIn::class,
             'elance' => Elance::class,
             'eventbrite' => Eventbrite::class,
+            'foursquare' => Foursquare::class,
             'microsoft' => Microsoft::class,
             'paypal' => Paypal::class,
+            'salesforce' => Salesforce::class,
             'uber' => Uber::class,
         ];
     }
