@@ -20,6 +20,7 @@
         "stevenmaguire/oauth2-keycloak": "^1.0@dev",
         "stevenmaguire/oauth2-foursquare": "^1.0@dev",
         "stevenmaguire/oauth2-salesforce": "^1.0@dev",
+        "league/oauth2-facebook": "~1.0",
         "league/oauth1-client": "^1.5"
     },
     "require-dev": {

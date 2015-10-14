@@ -4,6 +4,7 @@ use App\Identity;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
+use League\OAuth2\Client\Provider\Facebook;
 use League\OAuth2\Client\Provider\Github;
 use League\OAuth2\Client\Provider\Instagram;
 use League\OAuth2\Client\Provider\LinkedIn;
@@ -62,6 +63,7 @@ class OAuth2 extends Authentication
         return [
             'bitbucket' => Bitbucket::class,
             'box' => Box::class,
+            'facebook' => Facebook::class,
             'github' => Github::class,
             'instagram' => Instagram::class,
             'linkedin' => LinkedIn::class,
@@ -115,7 +117,8 @@ class OAuth2 extends Authentication
             'clientId'          => $credentials['key'],
             'clientSecret'      => $credentials['secret'],
             'redirectUri'       => route('auth', ['protocol' => 'oauth2', 'provider' => $provider]),
-            'isSandbox'         => true
+            'isSandbox'         => true,
+            'graphApiVersion'   => 'v2.5',
         ]);
 
         if (empty($client)) {
@@ -143,6 +146,16 @@ class OAuth2 extends Authentication
             $token = $client->getAccessToken('authorization_code', [
                 'code' => $code
             ]);
+
+            if (is_a($client, Facebook::class)) {
+                try {
+                    $token = $client->getLongLivedAccessToken($token->getToken());
+                    $identity->message = 'Exchanged your short-lived token for a '
+                        .'long-lived token. This is a long-lived token.';
+                } catch (Exception $e) {
+                    $identity->message = 'This is a short-lived token.';
+                }
+            }
 
             $identity->accessToken = $token;
 
