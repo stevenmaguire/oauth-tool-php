@@ -58,6 +58,10 @@ abstract class Authentication
 
         session()->save();
 
+        if (is_array($value)) {
+            $value = array_filter($value);
+        }
+
         return $value;
     }
 }
