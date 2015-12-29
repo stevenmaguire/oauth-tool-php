@@ -70,8 +70,10 @@ class AuthController extends Controller
      *
      * @return Response
      */
-    public function getAuthOptions()
+    public function getAuthOptions(Request $request)
     {
+        dd($request);
+
         return view('start', ['protocols' => $this->getAvailableProtocols()]);
     }
 

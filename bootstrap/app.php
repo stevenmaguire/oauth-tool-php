@@ -15,11 +15,11 @@ Dotenv::load(__DIR__.'/../');
 |
 */
 
-$app = new Laravel\Lumen\Application(
+$app = new App\Application(
     realpath(__DIR__.'/../')
 );
 
- $app->withFacades();
+$app->withFacades();
 
 // $app->withEloquent();
 
