@@ -5,7 +5,7 @@
     <div class="row">
         <div class="small-12 columns">
             <h1>Begin OAuth Authentication Flow</h1>
-            @if (count($errors) > 0 || session('message'))
+            @if (isset($errors) && (count($errors) > 0 || session('message')))
             <div data-alert class="alert-box warning">
                 <ul>
                     @if (session('message'))

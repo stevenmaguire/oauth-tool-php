@@ -1,5 +1,15 @@
 <?php
 
+/*
+|--------------------------------------------------------------------------
+| Routes File
+|--------------------------------------------------------------------------
+|
+| Here is where you will register all of the routes in an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
 
 
 /*
@@ -7,12 +17,16 @@
 | Application Routes
 |--------------------------------------------------------------------------
 |
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
+| This route group applies the "web" middleware group to every route
+| it contains. The "web" middleware group is defined in your HTTP
+| kernel and includes session state, CSRF protection, and more.
 |
 */
 
-$app->get('/', ['as' => 'start', 'uses' => 'AuthController@getAuthOptions']);
-$app->post('/', ['as' => 'auth.redirect', 'uses' => 'AuthController@postAuth']);
-$app->get('{protocol:oauth1|oauth2}/{provider}', ['as' => 'auth', 'uses' => 'AuthController@getAuth']);
+Route::group(['middleware' => ['web']], function () {
+
+    Route::get('/', ['as' => 'start', 'uses' => 'OAuthController@getAuthOptions']);
+    Route::post('/', ['as' => 'auth.redirect', 'uses' => 'OAuthController@postAuth']);
+    Route::get('{protocol}/{provider}', ['as' => 'auth', 'uses' => 'OAuthController@getAuth']);
+
+});

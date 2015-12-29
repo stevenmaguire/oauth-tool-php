@@ -1,4 +1,6 @@
-<?php namespace App\Http\Controllers;
+<?php
+
+namespace App\Http\Controllers;
 
 use Exception;
 use App\Services\OAuth1;
@@ -7,7 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Http\RedirectResponse;
 
-class AuthController extends Controller
+class OAuthController extends Controller
 {
     /**
      * Create controller instance.

@@ -1,47 +1,67 @@
 {
-    "name": "laravel/lumen",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": ["framework", "laravel", "lumen"],
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
     "require": {
-        "laravel/lumen-framework": "5.1.*",
-        "vlucas/phpdotenv": "~1.0",
-        "league/oauth2-linkedin": "1.0.x-dev",
-        "league/oauth2-github": "1.0.x-dev",
-        "league/oauth2-instagram": "1.0.x-dev",
-        "stevenmaguire/oauth2-microsoft": "1.0.x-dev",
-        "stevenmaguire/oauth2-uber": "1.0.x-dev",
-        "stevenmaguire/oauth2-eventbrite": "1.0.x-dev",
-        "stevenmaguire/oauth2-box": "1.0.x-dev",
-        "stevenmaguire/oauth2-bitbucket": "1.0.x-dev",
-        "stevenmaguire/oauth2-elance": "1.0.x-dev",
-        "stevenmaguire/oauth2-paypal": "1.0.x-dev",
-        "stevenmaguire/oauth2-keycloak": "^1.0@dev",
-        "stevenmaguire/oauth2-foursquare": "^1.0@dev",
-        "stevenmaguire/oauth2-salesforce": "^1.0@dev",
-        "league/oauth2-facebook": "~1.0",
-        "league/oauth1-client": "^1.5"
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*",
+        "league/oauth2-linkedin": "^0.4.0",
+        "league/oauth2-github": "^0.2.0",
+        "league/oauth2-instagram": "^0.2.1",
+        "stevenmaguire/oauth2-microsoft": "^0.2.1",
+        "stevenmaguire/oauth2-uber": "^0.2.0",
+        "stevenmaguire/oauth2-eventbrite": "^0.2.0",
+        "stevenmaguire/oauth2-box": "^0.1.0",
+        "stevenmaguire/oauth2-bitbucket": "^0.1.1",
+        "stevenmaguire/oauth2-elance": "^0.1.0",
+        "stevenmaguire/oauth2-paypal": "^0.1.0",
+        "stevenmaguire/oauth2-keycloak": "^0.1.0",
+        "stevenmaguire/oauth2-foursquare": "^0.1.0",
+        "stevenmaguire/oauth2-salesforce": "^0.1.0",
+        "league/oauth2-facebook": "^1.1",
+        "league/oauth1-client": "^1.6"
     },
     "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~4.0",
-        "fzaninotto/faker": "~1.0"
+        "symfony/css-selector": "2.8.*|3.0.*",
+        "symfony/dom-crawler": "2.8.*|3.0.*"
     },
     "autoload": {
+        "classmap": [
+            "database"
+        ],
         "psr-4": {
             "App\\": "app/"
-        },
-        "classmap": [
-            "database/"
-        ]
+        }
     },
     "autoload-dev": {
         "classmap": [
-            "tests/"
+            "tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "php artisan clear-compiled",
+            "php artisan optimize"
+        ],
+        "pre-update-cmd": [
+            "php artisan clear-compiled"
+        ],
+        "post-update-cmd": [
+            "php artisan optimize"
         ]
     },
     "config": {
         "preferred-install": "dist"
-    },
-    "minimum-stability" : "dev"
+    }
 }
