@@ -15,7 +15,7 @@ class LoadBalancedRequest extends Base
     {
         $isSecure = parent::isSecure();
 
-        if($isSecure) {
+        if ($isSecure) {
             return true;
         }
 
