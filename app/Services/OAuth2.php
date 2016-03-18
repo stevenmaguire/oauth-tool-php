@@ -19,6 +19,7 @@ use Stevenmaguire\OAuth2\Client\Provider\Microsoft;
 use Stevenmaguire\OAuth2\Client\Provider\Paypal;
 use Stevenmaguire\OAuth2\Client\Provider\Salesforce;
 use Stevenmaguire\OAuth2\Client\Provider\Uber;
+use Stevenmaguire\OAuth2\Client\Provider\Zendesk;
 
 class OAuth2 extends Authentication
 {
@@ -76,6 +77,7 @@ class OAuth2 extends Authentication
             'paypal' => Paypal::class,
             'salesforce' => Salesforce::class,
             'uber' => Uber::class,
+            'zendesk' => Zendesk::class,
         ];
     }
 
@@ -121,6 +123,7 @@ class OAuth2 extends Authentication
             'redirectUri'       => route('auth', ['protocol' => 'oauth2', 'provider' => $provider]),
             'isSandbox'         => true,
             'graphApiVersion'   => 'v2.5',
+            'subdomain'         => 'delivered'
         ]);
 
         if (empty($client)) {
