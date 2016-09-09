@@ -22,7 +22,8 @@
         "stevenmaguire/oauth2-salesforce": "^0.1.0",
         "stevenmaguire/oauth2-zendesk": "^0.1.0",
         "league/oauth2-facebook": "^1.1",
-        "league/oauth1-client": "^1.6"
+        "league/oauth1-client": "^1.6",
+        "stevenmaguire/oauth2-nest": "^0.1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ded55c11e21271eed30f20c6b0719236",
-    "content-hash": "2f47bc9117093fe48c9e0fa04a070106",
+    "hash": "92c2366846e66493302bef8ce8cc0f5d",
+    "content-hash": "37907c128113efe15023cb95e0e6bbde",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2078,6 +2078,62 @@
                 "oauth2"
             ],
             "time": "2015-11-12 15:29:35"
+        },
+        {
+            "name": "stevenmaguire/oauth2-nest",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stevenmaguire/oauth2-nest.git",
+                "reference": "ad7c331d3d1306994050c5ed7eead05ea67ca3c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stevenmaguire/oauth2-nest/zipball/ad7c331d3d1306994050c5ed7eead05ea67ca3c8",
+                "reference": "ad7c331d3d1306994050c5ed7eead05ea67ca3c8",
+                "shasum": ""
+            },
+            "require": {
+                "league/oauth2-client": "~1.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stevenmaguire\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steven Maguire",
+                    "email": "stevenmaguire@gmail.com",
+                    "homepage": "https://github.com/stevenmaguire"
+                }
+            ],
+            "description": "Nest OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "authorisation",
+                "authorization",
+                "client",
+                "nest",
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2016-09-09 22:59:25"
         },
         {
             "name": "stevenmaguire/oauth2-paypal",
