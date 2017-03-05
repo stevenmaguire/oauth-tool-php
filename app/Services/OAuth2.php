@@ -12,9 +12,11 @@ use League\OAuth2\Client\Provider\Instagram;
 use League\OAuth2\Client\Provider\LinkedIn;
 use Stevenmaguire\OAuth2\Client\Provider\Bitbucket;
 use Stevenmaguire\OAuth2\Client\Provider\Box;
+use Stevenmaguire\OAuth2\Client\Provider\Dropbox;
 use Stevenmaguire\OAuth2\Client\Provider\Elance;
 use Stevenmaguire\OAuth2\Client\Provider\Eventbrite;
 use Stevenmaguire\OAuth2\Client\Provider\Foursquare;
+use Stevenmaguire\OAuth2\Client\Provider\Heroku;
 use Stevenmaguire\OAuth2\Client\Provider\Nest;
 use Stevenmaguire\OAuth2\Client\Provider\Microsoft;
 use Stevenmaguire\OAuth2\Client\Provider\Paypal;
@@ -67,13 +69,15 @@ class OAuth2 extends Authentication
         return [
             'bitbucket' => Bitbucket::class,
             'box' => Box::class,
-            'facebook' => Facebook::class,
-            'github' => Github::class,
-            'instagram' => Instagram::class,
-            'linkedin' => LinkedIn::class,
+            'dropbox' => Dropbox::class,
             'elance' => Elance::class,
             'eventbrite' => Eventbrite::class,
+            'facebook' => Facebook::class,
             'foursquare' => Foursquare::class,
+            'github' => Github::class,
+            'heroku' => Heroku::class,
+            'instagram' => Instagram::class,
+            'linkedin' => LinkedIn::class,
             'microsoft' => Microsoft::class,
             'nest' => Nest::class,
             'paypal' => Paypal::class,
