@@ -128,7 +128,7 @@ class OAuth2 extends Authentication
             'clientSecret'      => $credentials['secret'],
             'redirectUri'       => route('auth', ['protocol' => 'oauth2', 'provider' => $provider]),
             'isSandbox'         => true,
-            'graphApiVersion'   => 'v2.5',
+            'graphApiVersion'   => 'v2.6',
             'subdomain'         => 'delivered'
         ]);
 
