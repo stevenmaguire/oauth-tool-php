@@ -7,7 +7,7 @@
     "require": {
         "laravel/framework": "5.4.*",
         "league/oauth1-client": "^1.6",
-        "league/oauth2-linkedin": "~4.0",
+        "league/oauth2-linkedin": "~4.1",
         "league/oauth2-github": "~2.0",
         "league/oauth2-instagram": "~2.0",
         "league/oauth2-facebook": "~2.0",
